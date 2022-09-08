@@ -1,0 +1,8 @@
+ ***** LOG DE VENDAS ***** 
+Id venda              = 0
+Id item vendido       = 1
+Nome do item vendido  = Arma
+Quantidade vendida    = 12
+Custo por item sem desconto =345.5
+Custo final da venda  = 3938.7
+

@@ -1,0 +1,26 @@
+ ***** ITENS DO ESTOQUE ***** 
+
+LISTA DE ARMAS
+-ARMA
+1
+Adaga
+Arma
+1370
+10
+317.4
+LISTA DE ARMADURA
+-ARMADURA
+0
+Armadura_de_espinhos
+Armadura
+100
+3
+570.34
+LISTA DE CONSUMIVEIS
+-CONSUMIVEL
+2
+Poção_de_HP
+Consumivel
+3
+30
+50.4

@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1662645340 source:c:\users\saile\desktop\labluby\labluby\main.cpp
+	"Menu.h"
+
+1662570686 c:\users\saile\desktop\labluby\labluby\include\menu.h
+	<string>
+	"EstoqueItens.h"
+
+1662570312 source:c:\users\saile\desktop\labluby\labluby\src\arma.cpp
+	"Arma.h"
+	<algorithm>
+
+1662567437 c:\users\saile\desktop\labluby\labluby\include\arma.h
+	<iostream>
+	<string>
+	"Itens.h"
+
+1662559530 c:\users\saile\desktop\labluby\labluby\include\itens.h
+	<string>
+
+1662570312 source:c:\users\saile\desktop\labluby\labluby\src\armadura.cpp
+	"Armadura.h"
+	<algorithm>
+
+1662559549 c:\users\saile\desktop\labluby\labluby\include\armadura.h
+	<string>
+	<iostream>
+	"Itens.h"
+
+1662570311 source:c:\users\saile\desktop\labluby\labluby\src\consumivel.cpp
+	"Consumivel.h"
+	<algorithm>
+
+1662567456 c:\users\saile\desktop\labluby\labluby\include\consumivel.h
+	<string>
+	<iostream>
+	"Itens.h"
+
+1662567259 source:c:\users\saile\desktop\labluby\labluby\src\estoqueitens.cpp
+	"EstoqueItens.h"
+
+1662560279 c:\users\saile\desktop\labluby\labluby\include\estoqueitens.h
+	<list>
+	<iostream>
+	"Arma.h"
+	"Armadura.h"
+	"Consumivel.h"
+	"Venda.h"
+
+1662560846 source:c:\users\saile\desktop\labluby\labluby\src\itens.cpp
+	"Itens.h"
+
+1662646817 source:c:\users\saile\desktop\labluby\labluby\src\menu.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<iomanip>
+	<algorithm>
+	<fstream>
+	"Menu.h"
+
+1662335650 source:c:\users\saile\desktop\labluby\labluby\src\logvendas.cpp
+	"LogVendas.h"
+
+1662402416 c:\users\saile\desktop\labluby\labluby\include\logvendas.h
+
+1662560997 source:c:\users\saile\desktop\labluby\labluby\src\venda.cpp
+	"Venda.h"
+
+1662560168 c:\users\saile\desktop\labluby\labluby\include\venda.h
+	<iostream>
+	<string>
+

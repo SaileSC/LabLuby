@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="include\Consumivel.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="588" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="include\EstoqueItens.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="643" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="include\Arma.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="532" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="src\Venda.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="-3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="38" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="9" />
+			<Collapse line="15" />
+			<Collapse line="25" />
+			<Collapse line="31" />
+			<Collapse line="37" />
+			<Collapse line="43" />
+			<Collapse line="49" />
+			<Collapse line="55" />
+			<Collapse line="61" />
+			<Collapse line="67" />
+			<Collapse line="73" />
+			<Collapse line="79" />
+			<Collapse line="85" />
+			<Collapse line="91" />
+			<Collapse line="97" />
+			<Collapse line="103" />
+			<Collapse line="110" />
+		</Folding>
+	</File>
+	<File name="src\Arma.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="895" topLine="26" />
+		</Cursor>
+	</File>
+	<File name="src\Itens.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="604" topLine="35" />
+		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+			<Collapse line="10" />
+			<Collapse line="16" />
+			<Collapse line="25" />
+			<Collapse line="37" />
+			<Collapse line="43" />
+			<Collapse line="49" />
+			<Collapse line="55" />
+			<Collapse line="61" />
+			<Collapse line="67" />
+			<Collapse line="73" />
+			<Collapse line="79" />
+		</Folding>
+	</File>
+	<File name="src\Armadura.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="987" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Venda.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="491" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Armadura.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="621" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="src\Consumivel.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1079" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="src\Menu.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="803" zoom_1="-4" zoom_2="-3">
+		<Cursor>
+			<Cursor1 position="626" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="include\Itens.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="363" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="src\EstoqueItens.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="-4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10177" topLine="417" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="86" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Menu.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1569" topLine="7" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
