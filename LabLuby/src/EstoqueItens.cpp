@@ -3,6 +3,7 @@
 void EstoqueItens::manipulaItens(list<Arma> listaArmas, int id)
 {
     list<Arma>::iterator it;
+    while(true){
         for(it = listaArmas.begin(); it != listaArmas.end(); it++)
         {
             if(it->getId() == id)
@@ -18,37 +19,38 @@ void EstoqueItens::manipulaItens(list<Arma> listaArmas, int id)
                 break;
             };
         };
-    switch(menuItem())
-    {
-    case 1:
+        switch(menuItem())
         {
-            it->setQuantidade(alterarQuantidade());;
-            break;
-        };
-    case 2:
-        {
-            *it = vendeItem(*it);
-            break;
-        };
-    case 3:
-        {
-            listaArmas.erase(it);
-            cout<< "\nItem apagado do estoque....\n";
+        case 1:
+            {
+                it->setQuantidade(alterarQuantidade());;
+                break;
+            };
+        case 2:
+            {
+                *it = vendeItem(*it);
+                break;
+            };
+        case 3:
+            {
+                listaArmas.erase(it);
+                cout<< "\nItem apagado do estoque....\n";
+                cout<<"Enter para continuar..."<<endl;
+                getchar();getchar();
+                break;
+            };
+        case 4:
+            {
+                return;
+                break;
+            };
+        default:
+            {
+            cout << "Opção invalida, tente novamente......";
             cout<<"Enter para continuar..."<<endl;
             getchar();getchar();
             break;
-        };
-    case 4:
-        {
-            return;
-            break;
-        };
-    default:
-        {
-        cout << "Opção invalida, tente novamente......";
-        cout<<"Enter para continuar..."<<endl;
-        getchar();getchar();
-        break;
+            };
         };
     };
     this->listaArmas = listaArmas;
@@ -58,6 +60,7 @@ void EstoqueItens::manipulaItens(list<Arma> listaArmas, int id)
 void EstoqueItens::manipulaItens(list<Armadura> listaArmaduras, int id)
 {
     list<Armadura>::iterator it;
+    while(true){
         for(it = listaArmaduras.begin(); it != listaArmaduras.end(); it++)
         {
             if(it->getId() == id)
@@ -73,36 +76,37 @@ void EstoqueItens::manipulaItens(list<Armadura> listaArmaduras, int id)
                 break;
             };
         };
-    switch(menuItem())
-    {
-    case 1:
+        switch(menuItem())
         {
-            it->setQuantidade(alterarQuantidade());
-            break;
-        }
-    case 2:
-        {
-            *it = vendeItem(*it);
-            break;
-        };
-    case 3:
-        {
-            listaArmaduras.erase(it);
-            cout<< "\nItem apagado do estoque....\n";
-            cout<<"Enter para continuar..."<<endl;
+        case 1:
+            {
+                it->setQuantidade(alterarQuantidade());
+                break;
+            }
+        case 2:
+            {
+                *it = vendeItem(*it);
+                break;
+            };
+        case 3:
+            {
+                listaArmaduras.erase(it);
+                cout<< "\nItem apagado do estoque....\n";
+                cout<<"Enter para continuar..."<<endl;
+                getchar();getchar();
+                break;
+            }
+        case 4:
+            {
+                return;
+                break;
+            }
+        default:
+            {
+            cout << "Opção invalida, tente novamente......";
             getchar();getchar();
             break;
-        }
-    case 4:
-        {
-            return;
-            break;
-        }
-    default:
-        {
-        cout << "Opção invalida, tente novamente......";
-        getchar();getchar();
-        break;
+            };
         };
     };
     this->listaArmaduras = listaArmaduras;
@@ -112,6 +116,7 @@ void EstoqueItens::manipulaItens(list<Armadura> listaArmaduras, int id)
 void EstoqueItens::manipulaItens(list<Consumivel> listaConsumiveis, int id)
 {
     list<Consumivel>::iterator it;
+    while(true){
         for(it = listaConsumiveis.begin(); it != listaConsumiveis.end(); it++)
         {
             if(it->getId() == id)
@@ -127,38 +132,41 @@ void EstoqueItens::manipulaItens(list<Consumivel> listaConsumiveis, int id)
                 break;
             };
         };
-    switch(menuItem())
-    {
-    case 1:
+
+        switch(menuItem())
         {
-            it->setQuantidade(alterarQuantidade());
-            break;
-        };
-    case 2:
-        {
-            *it = vendeItem(*it);
-            break;
-        };
-    case 3:
-        {
-            listaConsumiveis.erase(it);
-            cout<< "\nItem apagado do estoque....\n";
-            cout<<"Enter para continuar..."<<endl;
-        getchar();getchar();
-            break;
-        };
-    case 4:
-        {
-            return;
-            break;
-        };
-    default:
-        {
-        cout << "Opção invalida, tente novamente......";
-        getchar();getchar();
-        break;
-        };
+            case 1:
+                {
+                    it->setQuantidade(alterarQuantidade());
+                    break;
+                };
+            case 2:
+                {
+                    *it = vendeItem(*it);
+                    break;
+                };
+            case 3:
+                {
+                    listaConsumiveis.erase(it);
+                    cout<< "\nItem apagado do estoque....\n";
+                    cout<<"Enter para continuar..."<<endl;
+                    getchar();getchar();
+                    break;
+                };
+            case 4:
+                {
+                    return;
+                    break;
+                };
+            default:
+                {
+                cout << "Opção invalida, tente novamente......";
+                getchar();getchar();
+
+                };
+            };
     };
+
     this->listaConsumiveis = listaConsumiveis;
 };
 
@@ -303,10 +311,12 @@ Consumivel EstoqueItens::vendeItem(Consumivel item)
 bool EstoqueItens::confirmaVenda(float custoUnidade, float valorSemDesc,int taxaDesc, float ValorFinal)
 {
     int opc = 0;
+    float valorDesconto = (float) valorSemDesc - ValorFinal;
     system("cls||clear");
     cout<<"       CONFIRMAÇÃO DA COMPRA   \n"
         <<" Custo por unidade    = "<<custoUnidade<<" PO"
         <<"\n Valor sem desconto   = "<<valorSemDesc<<" PO"
+        <<"\n Valor do desconto    = "<<valorDesconto<<" PO"
         <<"\n Desconto             = "<<taxaDesc<<"%"
         <<"\n Valor final da venda = "<<ValorFinal<<" PO"<<endl
         <<"\n 1.Confirma"
